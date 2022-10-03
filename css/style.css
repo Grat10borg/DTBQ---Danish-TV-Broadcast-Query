@@ -1,0 +1,89 @@
+body {
+  background-color: aliceblue;
+}
+
+body header {
+  min-height: 4rem;
+  background-color: seagreen;
+  color: whitesmoke;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: "Secular One", sans-serif;
+}
+
+body p,
+body label,
+body span {
+  font-family: "Heebo", sans-serif;
+}
+
+body form label {
+  color: darkblue;
+  font-size: large;
+}
+
+body form ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+body form ul li {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: seagreen;
+  border: 2rem;
+}
+
+body form ul li:hover {
+  color: whitesmoke;
+  background-color: turquoise;
+}
+
+body form ul li:nth-child(odd) {
+  text-decoration: none;
+  color: seagreen;
+  background-color: whitesmoke;
+}
+
+body form ul li:nth-child(odd):hover {
+  background-color: #b8ecf5;
+}
+
+body form ul li:after {
+  float: right;
+  margin-right: 1rem;
+  content: "?";
+}
+
+body form .submit {
+  background-color: seagreen;
+  color: white;
+}
+
+body a {
+  color: crimson;
+  cursor: pointer;
+  text-align: center;
+}
+
+body a:visited {
+  color: coral;
+  cursor: default;
+  text-align: center;
+}
+
+body footer {
+  min-height: 4rem;
+  background-color: seagreen;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=style.css.map */
